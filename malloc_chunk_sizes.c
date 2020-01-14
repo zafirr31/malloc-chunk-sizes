@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 	}
 	else	{
 		if(min_val == -1 || max_val == -1)	{
-			fprintf(stderr, "Range parameter requires below and above parameters. Try \'-a\' and \'-b\' options.\n");
+			fprintf(stderr, "Range parameter requires below and above parameters. Try \'-u\' and \'-l\' options.\n");
 			fprintf(stderr, "Try \'./malloc_chunk_sizes -h\' for more information\n");
 			exit(EXIT_FAILURE);
 		}
